@@ -20,7 +20,6 @@ class ArticlesController < ApplicationController
 	end
 
 	def update
-		
 		if @article.update(article_params)	
 			flash[:success] = "Article was succesfully updated"
 			redirect_to article_path(@article)	
@@ -30,7 +29,6 @@ class ArticlesController < ApplicationController
 	end
 
 	def destroy
-		
 		@article.destroy
 		flash[:danger] = "Article was successfully deleted"
 		redirect_to articles_path

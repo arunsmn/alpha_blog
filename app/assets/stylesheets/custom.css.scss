@@ -1,2 +1,73 @@
+$navbar-default-bg: #020129;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo{
+	color: #fff;
+	float: left;
+	font-size: 1.7em;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+#logo:hover{
+	color:#fff;
+	text-decoration: none;
+}
+
+.center{
+	text-align: center;
+}
+
+.jumbotron {
+	background-image: asset-url('circuit.jpg');
+	background-size: cover;
+	height: 450px;
+}
+
+.jumbotron h1 {
+    color: #e9c7c7;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.btn-xlarge {
+	font-size: 1.7em;
+	background-color: #020129;
+	border-color: #b48484;
+	color: #854664;
+}
+
+.btn-xlarge:hover{
+	background-color: #994e51;
+	color: #e9c7c7;
+}
+
+footer{
+	margin-top: 40px;
+	padding-top: 10px;
+	border-top: 1px solid #020129;
+	color: #777; 
+}
+
+footer a:hover {
+	color: #222;
+}
+
+footer small{
+	float: left;
+}
+
+footer ul{
+	float: right;
+	list-style: none;
+}
+
+float ul li{
+	float: left;
+	margin-left: 10px;
+}
